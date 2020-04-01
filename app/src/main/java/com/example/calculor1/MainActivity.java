@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -18,21 +17,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        findViewById(R.id.MC).setOnClickListener(this);
-        findViewById(R.id.MR).setOnClickListener(this);
-        findViewById(R.id.Mplus).setOnClickListener(this);
-        findViewById(R.id.Msub).setOnClickListener(this);
-        findViewById(R.id.MS).setOnClickListener(this);
-        findViewById(R.id.M).setOnClickListener(this);
 
-        findViewById(R.id.percent).setOnClickListener(this);
         findViewById(R.id.CE).setOnClickListener(this);
         findViewById(R.id.C).setOnClickListener(this);
         findViewById(R.id.backspace).setOnClickListener(this);
-
-        findViewById(R.id.phan_so).setOnClickListener(this);
-        findViewById(R.id.pow2).setOnClickListener(this);
-        findViewById(R.id.sqrt).setOnClickListener(this);
         findViewById(R.id.chia).setOnClickListener(this);
 
         findViewById(R.id.n7).setOnClickListener(this);

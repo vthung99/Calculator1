@@ -3,4 +3,7 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="xam">#888888</color>
+    <color name="trang">#DDDDDD</color>
+    <color name="den">#111111</color>
 </resources>
